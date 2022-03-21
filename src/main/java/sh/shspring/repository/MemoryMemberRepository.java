@@ -1,8 +1,10 @@
 package sh.shspring.repository;
 
+import org.springframework.stereotype.Repository;
 import sh.shspring.domain.Member;
 
 import java.util.*;
+
 
 public class MemoryMemberRepository implements MemberRepository {
 
